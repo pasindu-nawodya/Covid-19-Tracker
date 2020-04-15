@@ -20,7 +20,7 @@ export default class NavBar extends Component {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav mr-auto"></ul>
                     <form className="form-inline my-2 my-lg-0">
-                        <a className="" href="#"><button type="button" className="btn btn-outline-info">Developed by</button></a>                      
+                        <a className="" href="https://pasindu-nawodya.github.io/"><button type="button" className="btn btn-outline-info">Developed by</button></a>                      
                     </form>
                     <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
                 </div>
