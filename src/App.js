@@ -3,6 +3,7 @@ import Navbar from './component/Navbar/Navbar';
 import {Cards,Charts,CountryPicker,Title} from './component';
 import {fetchData} from './api'
 import Footer from './component/Footer'
+import VideoBlock from './component/VideoBlock'
 
 import './App.css'
 
@@ -42,6 +43,7 @@ class App extends Component{
           <Cards data={data}/>          
           <Charts data={data} country={country}/>
         </div>
+        <VideoBlock />
         <Footer />
       </div>
     );

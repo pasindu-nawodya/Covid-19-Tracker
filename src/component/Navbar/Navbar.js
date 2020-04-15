@@ -8,7 +8,7 @@ export default class NavBar extends Component {
         const today = date.getDate()+"-"+date.getMonth()+"-"+date.getFullYear();
 
         return (
-
+            <div>
             <nav className="navbar navbar-expand-lg navbar-dark bg-dark">            
                 <a className="navbar-brand " href="#"> <img src={covid.png}/> <b>COVID-19 : LIVE UPDATE</b><br />
                 <span className="badge badge-secondary ml-2">Today :{today}</span>
@@ -25,6 +25,10 @@ export default class NavBar extends Component {
                     <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
                 </div>
             </nav>
+            <div class="alert alert-primary text-center" role="alert">
+                 <span className="badge badge-primary ml-2 text-light">Used API :<a href="https://covid19.mathdro.id/api" className="text-light"> https://covid19.mathdro.id/api</a> </span>
+            </div>
+            </div>
         )
     }
 }
