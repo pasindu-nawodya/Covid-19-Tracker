@@ -3,7 +3,6 @@ import Navbar from './component/Navbar/Navbar';
 import {Cards,Charts,CountryPicker,Title} from './component';
 import {fetchData} from './api'
 import Footer from './component/Footer'
-import VideoBlock from './component/VideoBlock'
 
 import './App.css'
 
@@ -40,10 +39,10 @@ class App extends Component{
               <CountryPicker handleCountryChange={this.handleCountryChange} />    
             </div> 
           </center>
-          <Cards data={data}/>          
+          <Cards data={data}/>    
+          <Title graph={"GRAPH : "} country={country}/>      
           <Charts data={data} country={country}/>
-        </div>
-        <VideoBlock />
+        </div>        
         <Footer />
       </div>
     );
