@@ -5,7 +5,7 @@ export default class NavBar extends Component {
     render() {
 
         const date = new Date();
-        const today = date.getDate()+"-"+date.getMonth()+"-"+date.getFullYear();
+        const today = date.toDateString();
 
         return (
             <div>
